@@ -1,0 +1,150 @@
+body{
+    background-color: #C87E7E ;
+}
+h1{
+    color: #2B2118;
+    animation-duration: 3s;
+    animation-name: slidein;
+    text-align: center;
+}
+
+  @keyframes slidein {
+      from {
+        margin-left: 100%;
+        width: 300%;
+      }
+      to {
+        margin-left: 0%;
+       width: 100%;
+      }
+  }
+  
+h2{
+    text-align: center;
+    height: 300px;
+    font-size: 50px;
+  }
+
+.imginicio{
+    animation-duration: 3s;
+    animation-name: imagen;
+    border: 2px solid #FFDAB9;
+    width: 100%;
+    height: auto;
+}
+
+
+
+@keyframes imagen{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+
+.img1{
+  float: center;
+  width: 100%;
+  height: 900px;
+  animation-name: imagenes;
+}
+
+
+@keyframes imagenes{
+  from {
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+
+
+
+a{
+  color: #63062A;
+  font-size: 40px;
+  text-align: center;
+}
+
+p{
+  color: #2B2118;
+  font-size: 19px;
+}
+
+.caja1{
+  width: auto;
+  height: 100px;
+  background-color: #F7DEE4;
+  padding: 20px;
+  border: 2px solid #FFDAB9;
+}
+
+.arriba{
+  width: 300px;
+  height: 300px;
+
+}
+
+.caja2{
+  width: 100%;
+  height: 300px;
+  background-color: #EBADBB;
+}
+
+.caja3{
+  width: 100%;
+  height: 350px;
+  background-color: #E38CA0;
+}
+
+.caja4{
+  width: 100%;
+  height: 350px;
+  background-color: #DF7C93;
+}
+
+.caja5{
+  width: 100%;
+  height: 350px;
+  background-color: #DB6B85 ;
+}
+
+.caja6 {
+  width: 100%;
+  height: 350px;
+  background-color: #D75B78 ;
+}
+
+.raza1{
+  width: 100%;
+  text-align: center; 
+}
+
+ul{
+  text-align: left;
+  font-size: 30px;
+  color: #416165;
+}
+
+.razones{
+  width: 100%;
+  height: 500px;
+  font-size: 100px;
+  text-align: center;
+  background-color: #D1C8E1;
+}
+
+.relleno{
+  width: 100%;
+  height: 200px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.ultima{
+  height: 500px;
+  width: 100%;
+}
